@@ -1,0 +1,11 @@
+{
+  "name": "od-paginator",
+  "version": "1.0.5",
+  "description": "",
+  "main": "paginator.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
