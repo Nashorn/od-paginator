@@ -2,7 +2,6 @@ import '/node_modules/od-observer/observer.js';
 
 
 namespace `core.traits` (
-    @transpile("es7");
     @traits([new Observer]);
     class Paginator {
         constructor(options) {
