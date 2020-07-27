@@ -1,8 +1,5 @@
-import '/node_modules/od-observer/observer.js';
-
 
 namespace `core.traits` (
-    @traits([new Observer]);
     class Paginator {
         constructor(options) {
             this.data = options.data;
@@ -88,3 +85,5 @@ namespace `core.traits` (
         }
     }
 );
+
+traits(core.traits.Paginator,[new Observer]);
