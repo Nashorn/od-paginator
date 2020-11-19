@@ -8,6 +8,7 @@ namespace `core.traits` (
         }
 
         next(){
+            //next goes to next page set
             if(this.currentPage==this.totalpages()){this.currentPage--};
             var d = this.data.slice(this.currentPage*this.pageSize, (this.currentPage+1)*this.pageSize);
             this.currentPage++;
