@@ -1,7 +1,8 @@
 
 namespace `core.traits` (
-    class Paginator {
+    class Paginator extends Object.with(IEventTarget) {
         constructor(options) {
+            super();
             this.data = options.data;
             this.pageSize = options.pageSize;
             this.currentPage=("currentPage" in options)? options.currentPage:0;
@@ -87,4 +88,3 @@ namespace `core.traits` (
     }
 );
 
-traits(core.traits.Paginator,[new Observer]);
